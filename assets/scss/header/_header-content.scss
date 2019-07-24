@@ -1,0 +1,76 @@
+.header-content {
+  position: relative;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    text-align: center;
+    letter-spacing: 0.08em;
+  
+    @include lg-min {
+      margin: 0 0 53px;
+    }
+    
+    @include lg {
+      margin: 0 0 43px;
+    }
+  
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include sm {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn {
+      @include lg-min {
+        min-width: 250px;
+        height: 60px;
+
+        &:first-of-type {
+          margin-right: $gap;
+        }
+      }
+
+      @include lg-md {
+        min-width: 200px;
+        height: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        &:first-of-type {
+          margin-right: $gap;
+        }
+      }
+
+      @include md-sm {
+        min-width: 170px;
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:first-of-type {
+          margin-right: $gap;
+        }
+      }
+
+      @include sm {
+        min-width: 170px;
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:first-of-type {
+          margin-bottom: $gap;
+        }
+      }
+    }
+  }
+}
