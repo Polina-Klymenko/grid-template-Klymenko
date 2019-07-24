@@ -1239,13 +1239,13 @@ input:focus {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.9px) {
   .header-content__title {
     margin: 0 0 43px;
   }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 991.9px) and (min-width: 768px) {
   .about, .posts {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1284,7 +1284,7 @@ input:focus {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.9px) {
   .about, .posts {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1308,7 +1308,7 @@ input:focus {
   }
 }
 
-@media (max-width: 767px) and (min-width: 576px) {
+@media (max-width: 767.9px) and (min-width: 576px) {
   .header-content__buttons .btn {
     min-width: 170px;
     height: 40px;
@@ -1346,7 +1346,7 @@ input:focus {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575.9px) {
   .header-content__buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
