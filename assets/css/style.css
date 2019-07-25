@@ -699,7 +699,7 @@ input:focus {
 .header-navbar__list {
   list-style: none;
   padding: 0;
-  margin: -20px 0 0;
+  margin: 0 -20px 0 0;
 }
 
 .header-navbar__item a {
